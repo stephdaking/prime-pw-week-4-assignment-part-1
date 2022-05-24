@@ -62,6 +62,7 @@ function getLast(array) {
 	}
 }
 let testArray = ['Drey', 'Deon', 'Diesel', 'Diangelo'];
+console.log(testArray);
 console.log('This should return last name:', getLast(testArray));
 
 // 7. Function to find a value in an array. Return true if the
