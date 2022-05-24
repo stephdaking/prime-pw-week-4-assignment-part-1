@@ -100,6 +100,9 @@ console.log('isFirstLetter - should say false:', isFirstLetter('z', 'apple'));
 
 // 9. Function to return the sum of all numbers in an array
 let numbersArray = [15, 33, -10, 5];
+
+console.log(numbersArray);
+
 function sumAll(array) {
 	let sum = 0;
 	for (let i = 0; i < array.length; i++) {
