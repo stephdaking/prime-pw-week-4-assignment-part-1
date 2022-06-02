@@ -72,17 +72,19 @@ console.log('This should return last name:', getLast(testArray));
 function find(value, array) {
 	let i = 0;
 	while (i < array.length) {
-		i++;
 		if (array[i] === value) {
 			return true;
-		} else {
-			return false;
 		}
+		i++;
 	}
+	return false;
 }
 
 console.log('Should return true:', find('Deon', testArray));
 console.log('Should return false:', find('Bro', testArray));
+console.log('Should return true:', find('Drey', testArray));
+console.log('Should return true:', find('Diesel', testArray));
+console.log('Should return true:', find('Savanni', testArray));
 
 // ----------------------
 // Stretch Goals
